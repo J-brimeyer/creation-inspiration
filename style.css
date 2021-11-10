@@ -1,0 +1,37 @@
+﻿.rotate_01{
+	display: block;
+	position: fixed;
+	top: 10%;
+	bottom: 25%;
+	left: 25%;
+	right: 25%;
+	width: 750px;
+	height: 750px;
+	margin: -60px 0 0 60px;
+}
+.rotate_01:hover{
+	-webkit-animation: spin 40s linear infinite;
+	-moz-animation: spin 40s linear infinite;
+	animation: spin 40s linear infinite;
+}
+@-webkit-keyframes spin{
+	100%{-webkit-transform:rotate(360deg);}
+}
+@-moz-keyframes spin{
+	100%{-webkit-transform:rotate(360deg);}
+}
+@keyframes spin{
+	100%{-webkit-transform:rotate(360deg);}
+}
+
+.rotate_02{
+	display: block;
+	position: fixed;
+	top: 16%;
+	bottom: 25%;
+	left: 0%;
+	right: 25%;
+	width: 330px;
+	height: 200px;
+	margin: -60px 0 0 60px;
+}
